@@ -12,7 +12,7 @@ setup(
     py_modules=['pytest_flask_sqlalchemy'],
     entry_points = {
         'pytest11': [
-            'flask_sqlalchemy = pytest_flask_sqlalchemy',
+            'flask_sqlalchemy = pytest_flask_sqlalchemy.plugin',
         ]
     },
     classifiers=[
